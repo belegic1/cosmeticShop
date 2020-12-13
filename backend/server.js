@@ -5,12 +5,15 @@ import colors from 'colors'
 import dotenv from 'dotenv'
 import connectDb from './config/db.js'
 import productRouter from './routes/productRoutes.js'
+import userRouter from './routes/userRoutes.js'
 import {notFound, errorHandler} from './middleware/errorHandlers.js'
 
 dotenv.config()
 connectDb()
 const app = express()
+app.use(express.json())
 app.use('/api/products', productRouter)
+app.use('/api/users', userRouter)
 
 app.use(notFound)
 

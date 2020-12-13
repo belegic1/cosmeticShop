@@ -5,6 +5,14 @@ main{
 h3{
     margin: 1rem 0;
 }
+h1{
+    font-size: 1.8rem;
+    margin: 1rem 0;
+}
+h2{
+    font-size: 1.4rem;
+    margin: .5rem 0;
+}
 
 .rating{
     margin: .1rem;
