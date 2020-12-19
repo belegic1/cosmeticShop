@@ -22,7 +22,7 @@ const Header = () => {
             className='color'  expand="lg" collapseOnSelect>
                 <Container>
                     <LinkContainer to='/'>
-                    <Navbar.Brand>Jovanovski</Navbar.Brand>
+                    <Navbar.Brand>Cosmetic Shop</Navbar.Brand>
                     </LinkContainer>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
