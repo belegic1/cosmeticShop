@@ -6,6 +6,7 @@ import {useDispatch, useSelector} from 'react-redux'
 import {logout } from '../actions/userActions'
 import SearchBox from './SearchBox'
 
+
 const Header = () => {
     const dispatch = useDispatch()
     const userLogin = useSelector(state => state.userLogin)
@@ -16,7 +17,9 @@ const Header = () => {
     }
     return (
         <header>
-            <Navbar  bg="dark"  variant='dark' expand="lg" collapseOnSelect>
+            <Navbar /* bg='primary'   bg="dark"  variant='dark' variant='dark' */
+            variant='dark' 
+            className='color'  expand="lg" collapseOnSelect>
                 <Container>
                     <LinkContainer to='/'>
                     <Navbar.Brand>Jovanovski</Navbar.Brand>
