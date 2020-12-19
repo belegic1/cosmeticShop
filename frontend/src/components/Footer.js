@@ -7,7 +7,7 @@ const Footer = () => {
             <Container>
                 <Row>
                     <Col className='text-center py-3'>
-                        Copyright &copy; Belegic
+                        Copyright &copy; <a href="https://belegic-portfolio.web.app/" target='-blank'>Belegic</a>
                     </Col>
                 </Row>
             </Container>
