@@ -14,7 +14,7 @@ const Meta = ({title, description, keywords, icon}) => {
 }
 
 Meta.defaultProps = {
-    title: 'Welcome to Jovanovski',
+    title: 'Welcome to Cosmetic Shop',
     description: 'We sell the best products very cheap',
     keywords: 'electronics, buy electronics, cheap electronics',
     icon: 'https://icons.iconarchive.com/icons/custom-icon-design/pretty-office-11/256/shop-icon.png'
